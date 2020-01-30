@@ -5,14 +5,14 @@
 
 trigger:
 - master
+#change to pull requests 
+#pr:
+#- master
 
 strategy:
   matrix:
     jdk10_linux:
       imageName: "ubuntu-16.04"
-      jdk_version: "1.11"
-    jdk11_windows:
-      imageName: "vs2017-win2016"
       jdk_version: "1.11"
   maxParallel: 2
 
