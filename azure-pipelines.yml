@@ -12,7 +12,7 @@ trigger:
 strategy:
   matrix:
     jdk10_linux:
-      imageName: "ubuntu-fail"
+      imageName: "ubuntu-latest"
       jdk_version: "1.11"
   maxParallel: 2
 
@@ -22,7 +22,7 @@ pool:
 steps:
   - task: Maven@3
     inputs:
-      mavenPomFile: "pom.xml"
+      mavenPomFile: "pom.xmlfail"
       mavenOptions: "-Xmx3072m"
       javaHomeOption: "JDKVersion"
       jdkVersionOption: $(jdk_version)
