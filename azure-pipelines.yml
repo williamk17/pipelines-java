@@ -12,7 +12,7 @@ trigger:
 strategy:
   matrix:
     jdk10_linux:
-      imageName: "ubuntu-latest"
+      imageName: "ubuntu-fail"
       jdk_version: "1.11"
   maxParallel: 2
 
