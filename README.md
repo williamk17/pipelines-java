@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/dupo24/Solo%20Azure/_apis/build/status%2FDupo24.pipelines-java?branchName=master)](https://dev.azure.com/dupo24/Solo%20Azure/_build/latest?definitionId=15&branchName=master)
 # Test edit by Solomon
 # Contributing
 
