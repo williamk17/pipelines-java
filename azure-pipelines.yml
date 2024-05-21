@@ -11,13 +11,6 @@ trigger:
 
 strategy:
   matrix:
-    jdk10_linux:
-      imageName: "ubuntu-latest"
-      jdk_version: "1.11"
-  maxParallel: 2
-
-strategy:
-  matrix:
     linux:
       imageName: "ubuntu-latest"
     mac:
