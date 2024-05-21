@@ -28,7 +28,7 @@ steps:
       mavenPomFile: "pom.xml"
       mavenOptions: "-Xmx3072m"
       javaHomeOption: "JDKVersion"
-      jdkVersionOption: $(jdk_version)
+      jdkVersionOption: $(jdkVersion)
       jdkArchitectureOption: "x64"
       publishJUnitResults: true
       testResultsFiles: "**/TEST-*.xml"
