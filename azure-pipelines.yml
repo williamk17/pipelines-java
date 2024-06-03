@@ -6,17 +6,16 @@ parameters:
   type: boolean
   default: false
 
-trigger:
-- main
-- qqqqqq
+pr:
+- qqererer
 
 pool:
   vmImage: ubuntu-latest
 
 jobs:
-- job: Work
+- job: work1
   steps:
-  - script: echo Hello, world!
+  - script: echo Hello, i am fine!
     displayName: 'Run a one-line script'
 
 
